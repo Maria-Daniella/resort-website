@@ -1,8 +1,23 @@
 h1 {
    color: purple;
    text-align: center;
+   background-image:url(grey.jpg);
+   padding: 50px;
+}
+h2 {
+   color: purple;
 }
 #link a{
-  padding: 500px;
-  text-decoration: none;
+   box-shadow: 10px 5px 5px purple;
+   padding: 30px;
 }
+#list {
+   background-image:url(activities.jpg);
+   background-repeat: no-repeat;
+   background-position: center;
+   background-size: cover;
+}
+A:link { COLOR: purple; TEXT-DECORATION: none; font-weight: normal }
+A:visited { COLOR: purple; TEXT-DECORATION: none; font-weight: normal }
+A:active { COLOR: red; TEXT-DECORATION: none }
+A:hover { COLOR: pink; TEXT-DECORATION: none; font-weight: none }
